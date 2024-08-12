@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+    list-style:none;
+    text-decoration: none;
+    font-family: "Oswald" - Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 100%;
+    
+    
+}
+
+header{
+    background-color: rgb(95, 120, 201);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+.carrito{
+    height: 35px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    gap: 30px;
+}
+
+.navbar-list{
+    gap: 45px;
+    font-weight: 500;
+
+}
+
+.navbar-list a{
+    color: white;
+    
+}
